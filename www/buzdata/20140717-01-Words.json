@@ -1,0 +1,17 @@
+﻿{
+  "Brazilian"：{
+    "pronunciation":"[Bra'zil·ian || brə'zɪljən]",
+	"interpretation":[
+		{ 
+		   lang:"cn",
+		   meaning:"巴西的,巴西人的", 
+		   sample:"One possible interpretation is that they want you to resign"
+	   },
+	   { 
+		   lang:"en",
+		   meaning:"the way in which someone explains or understands an event, information, someone's actions etc", 
+		   sample:"One possible interpretation is that they want you to resign"
+	   }
+	]
+  }
+}

@@ -1,0 +1,13 @@
+input.ui-slider-input {
+    display:none !important;
+	visible:false;
+}
+.ui-slider-track{
+	margin:0px;
+	margin-left:20px;
+}
+.ui-field-contain label{
+	width:auto;
+	margin-right:0px;
+}
+

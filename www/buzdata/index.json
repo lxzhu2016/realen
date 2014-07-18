@@ -1,0 +1,20 @@
+{
+ articles:[
+	{ 
+		id:'20140717-01',
+		title:'The Economic Costs and Benefits of the 2014 FIFA World Cup Brazil',
+		class:'As It is'
+	},
+	{ 
+		id:'20140717-02',
+		title:'The Economic Costs and Benefits of the 2014 FIFA World Cup Brazil',
+		class:'As It is',
+		audio:'20140717-01.mp3',
+		script:{
+			en:'20140717-01-ScriptEN.txt',
+			cn:'20140717-01-ScriptCN.txt'
+		},
+		words:'20140717-01-Words.json'
+	}
+ ]
+}
