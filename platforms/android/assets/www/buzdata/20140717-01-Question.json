@@ -1,0 +1,39 @@
+﻿{
+  choice:[
+    { 
+		question:'世界上面积最大的国家是?',
+		type:'text-text'
+		options:["美国","中国","加拿大","俄罗斯"],
+		answer:1
+	},
+	{ 
+		question:'汉译英:伟大',
+		type:'text-text'
+		options:["美国","中国","加拿大","俄罗斯"],
+		answer:1
+	},
+	{ 
+		question:'汉译英:伟大',
+		type:'text-voice'
+		options:["voice-great.mp3","voice-good.mp3","voice-stupid.mp3","voice-expect.mp3"],
+		answer:1
+	}
+	],
+	logic:[
+	{
+		statement:'文章作者认为农田的退化是农业现代化的后果',
+		type:'TFNG',
+		answer:'T'
+	}
+	],
+	links:{
+	    title:'请将下列观点和提出该观点的人联系起来.'
+		optionsa:["道可道","北冥有鱼","学而时习之","舍鱼而取熊掌也"],
+		optionsb:["庄子","孔子","老子","孟子"]
+		optionsc:[2,0,1,4]
+	},
+	dictation:[
+		{voice:'', answer:''}
+	]
+  ],
+}

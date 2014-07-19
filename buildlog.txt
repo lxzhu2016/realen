@@ -1,0 +1,202 @@
+[36m[phonegap][39m detecting Android SDK environment...
+[36m[phonegap][39m using the local environment
+[36m[phonegap][39m compiling Android...
+cp: no such file or directory: D:\Github\realen\res\icon\ios\icon-72.png
+
+Buildfile: D:\Github\realen\platforms\android\build.xml
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\EclipseADT\sdk
+
+-setup:
+     [echo] Project Name: RealEnglish
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for RealEnglish...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+     [echo] ----------
+     [echo] Resolving Dependencies for RealEnglish...
+[dependency] Library dependencies:
+[dependency] 
+[dependency] ------------------
+[dependency] Ordered libraries:
+[dependency] 
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+
+nodeps:
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\EclipseADT\sdk
+
+-setup:
+     [echo] Project Name: CordovaLib
+  [gettype] Project Type: Android Library
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for CordovaLib...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+     [echo] ----------
+     [echo] Resolving Dependencies for CordovaLib...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+
+-code-gen:
+[mergemanifest] Found Deleted Target File
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Found new input file
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] No need to generate new BuildConfig.
+
+-pre-compile:
+
+-compile:
+     [echo] Creating library output jar file...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+     [echo] Library project: do not convert bytecode...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: D:\Github\realen\platforms\android\CordovaLib\res
+   [crunch] To destination dir: D:\Github\realen\platforms\android\CordovaLib\ant-build\res
+   [crunch] Crunched 0 PNG files to update cache
+
+-package-resources:
+     [echo] Library project: do not package resources...
+
+-package:
+     [echo] Library project: do not package apk...
+
+-post-package:
+
+-do-debug:
+     [echo] Library project: do not create apk...
+[propertyfile] Updating property file: D:\Github\realen\platforms\android\CordovaLib\ant-build\build.prop
+[propertyfile] Updating property file: D:\Github\realen\platforms\android\CordovaLib\ant-build\build.prop
+[propertyfile] Updating property file: D:\Github\realen\platforms\android\CordovaLib\ant-build\build.prop
+[propertyfile] Updating property file: D:\Github\realen\platforms\android\CordovaLib\ant-build\build.prop
+
+-post-build:
+
+debug:
+
+-code-gen:
+[mergemanifest] Found Deleted Target File
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Found Deleted Target File
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] No need to generate new BuildConfig.
+
+-pre-compile:
+     [echo] Set jars path to: D:\Github\realen\platforms\android\CordovaLib\ant-build\classes.jar
+
+-compile:
+    [javac] Compiling 2 source files to D:\Github\realen\platforms\android\ant-build\classes
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: D:\Github\realen\platforms\android\ant-build\classes
+      [dex] input: D:\Github\realen\platforms\android\CordovaLib\ant-build\classes.jar
+      [dex] Using Pre-Dexed classes-ffd7c2cbbd87b097f287484614d8adac.jar <- D:\Github\realen\platforms\android\CordovaLib\ant-build\classes.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Github\realen\platforms\android\ant-build\classes.dex...
+       [dx] Merged dex A (128 defs/209.7KiB) with dex B (206 defs/314.1KiB). Result is 334 defs/640.0KiB. Took 0.3s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: D:\Github\realen\platforms\android\res
+   [crunch] To destination dir: D:\Github\realen\platforms\android\ant-build\res
+   [crunch] Processing image to cache: D:\Github\realen\platforms\android\res\drawable\icon.png => D:\Github\realen\platforms\android\ant-build\res\drawable\icon.png
+   [crunch]   (processed image to cache entry D:\Github\realen\platforms\android\ant-build\res\drawable\icon.png: 80% size of source)
+   [crunch] Crunched 1 PNG files to update cache
+
+-package-resources:
+     [aapt] Found Deleted Target File
+     [aapt] Creating full resource package...
+     [aapt]     (skipping file '.pgbomit' due to ANDROID_AAPT_IGNORE pattern '.*')
+
+-package:
+[apkbuilder] Found Deleted Target File
+[apkbuilder] Creating RealEnglish-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: D:\Github\realen\platforms\android\ant-build\RealEnglish-debug.apk
+[propertyfile] Updating property file: D:\Github\realen\platforms\android\ant-build\build.prop
+[propertyfile] Updating property file: D:\Github\realen\platforms\android\ant-build\build.prop
+[propertyfile] Updating property file: D:\Github\realen\platforms\android\ant-build\build.prop
+[propertyfile] Updating property file: D:\Github\realen\platforms\android\ant-build\build.prop
+
+-post-build:
+     [move] Moving 1 file to D:\Github\realen\platforms\android\ant-build
+     [move] Moving 1 file to D:\Github\realen\platforms\android\CordovaLib\ant-build
+
+debug:
+
+BUILD SUCCESSFUL
+Total time: 10 seconds
+[36m[phonegap][39m successfully compiled Android app
+[36m[phonegap][39m trying to install app onto device
+cp: no such file or directory: D:\Github\realen\res\icon\ios\icon-72.png
+
+Terminate batch job (Y/N)? 
