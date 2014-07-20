@@ -14,7 +14,7 @@
 		listview.empty();		
 		linq.each(articleList,function(idx,it){
 			var li=$("<li>");
-		    var anchor=$("<a href='#article?id="+it.id+"'>");
+		    var anchor=$("<a href='#article'>");
 			debug.alert('page.index',anchor.html());
 			anchor.append("<img src='buzdata/"+it.image+"'>","<h2>"+it.title+"</h2>","<p>"+it["class"]+"</p>");
 			li.append(anchor);			
